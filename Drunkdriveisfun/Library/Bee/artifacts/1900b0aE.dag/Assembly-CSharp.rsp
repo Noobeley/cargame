@@ -364,6 +364,8 @@
 -analyzer:"D:/Unity files/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity files/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CarBehavior.cs"
+"Assets/HitByCar.cs"
+"Assets/pedes.cs"
 "Assets/Scripts/Collision.cs"
 "Assets/Scripts/GameOver.cs"
 -langversion:9.0
