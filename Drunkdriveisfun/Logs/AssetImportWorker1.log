@@ -199,3 +199,11 @@ Received Import Request.
 Start importing Assets/skybox/Zonder titel110_20240610113236 (1).png using Guid(62218485aeb58ac469f4f1ac0d98f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc345e380f17736bbc31e2d6a2675bcd') in 0.670180 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 251.250439 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Material/EA04_LPNP-TinyForest_Colorsheet_v1.mat
+  artifactKey: Guid(b6a037f85a603854c9f52e5cfd1d6f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Material/EA04_LPNP-TinyForest_Colorsheet_v1.mat using Guid(b6a037f85a603854c9f52e5cfd1d6f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05aa41ec25291da66174c4ad4ba69bf0') in 0.158893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
