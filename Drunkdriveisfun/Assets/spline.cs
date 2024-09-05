@@ -21,6 +21,23 @@ public class spline : MonoBehaviour
         {
             targetPosition = pathObjects[0].transform.position;
         }
+        else
+        {
+            // Delay the search for the first tagged game object by 1 second
+            StartCoroutine(DelayedStart());
+        }
+    }
+
+    IEnumerator DelayedStart()
+    {
+        yield return new WaitForSeconds(1f);
+
+        // Find all objects with the "Respawn" tag and add them to the pathObjects list
+        pathObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Respawn"));
+        if (pathObjects.Count > 0)
+        {
+            targetPosition = pathObjects[0].transform.position;
+        }
     }
 
     // Update is called once per frame
@@ -76,6 +93,15 @@ public class spline : MonoBehaviour
             {
                 targetPosition = pathObjects[currentPathIndex].transform.position;
             }
+        }
+    }
+
+    void RemoveVisitedObjects()
+    {
+        // Remove the "Respawn" tag from all visited game objects
+        foreach (GameObject obj in pathObjects)
+        {
+            obj.tag = "Untagged";
         }
     }
 }
