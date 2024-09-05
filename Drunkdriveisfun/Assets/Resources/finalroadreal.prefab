@@ -331,11 +331,11 @@ MonoBehaviour:
     - {fileID: 6945886765596016315}
     _isRoot: 0
   bounds:
-    center: {x: 0.0000009536743, y: 2.9203355, z: 0}
-    extents: {x: 13.000474, y: 2.9203355, z: 6}
-    max: {x: 13.000475, y: 5.840671, z: 6}
+    center: {x: 0.0000009536743, y: 2.9349995, z: 0}
+    extents: {x: 13.000474, y: 2.9349995, z: 6}
+    max: {x: 13.000475, y: 5.869999, z: 6}
     min: {x: -13.000473, y: 0, z: -6}
-    size: {x: 26.000948, y: 5.840671, z: 12}
+    size: {x: 26.000948, y: 5.869999, z: 12}
   builders: []
   unpacked: 0
   alwaysDraw: 0
@@ -813,7 +813,7 @@ Transform:
   m_GameObject: {fileID: 6295246496480616222}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2226944, y: 4.19, z: -1.0016885}
+  m_LocalPosition: {x: -0.2226944, y: 5.37, z: -1.0016885}
   m_LocalScale: {x: 9.2093, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -834,7 +834,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6295246496480616222}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
