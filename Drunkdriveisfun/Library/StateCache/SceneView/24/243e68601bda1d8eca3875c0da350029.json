@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-44.510658264160159,"y":67.13382720947266,"z":-44.92341613769531},"rotation":{"x":-0.398822546005249,"y":-0.054428379982709888,"z":0.02372199483215809,"w":-0.9151059985160828},"size":174.85745239257813,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-36.64308166503906,"y":1.7323579788208008,"z":-12.88803768157959},"rotation":{"x":0.057191845029592517,"y":0.9431701302528381,"z":-0.24541324377059937,"w":0.21778953075408936},"size":12.361186027526856,"orthographic":false}
+>>>>>>> Coop-branch
