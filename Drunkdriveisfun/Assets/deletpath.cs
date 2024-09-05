@@ -15,11 +15,6 @@ public class deletpath : MonoBehaviour
     void OnTriggerEnter(Collider pedest)
     {
         Debug.Log("Collision detected." + pedest.gameObject);
-        if (pedest.CompareTag("Respawn"))
-        {
-            //pedest.gameObject.SetActive(false); // Disable the collided game object
-           // Debug.Log("Path object disabled.");
-            //enabled = false; // Disable the deletpath script
-        }
+        Destroy(gameObject); // Destroy the current game object
     }
 }
