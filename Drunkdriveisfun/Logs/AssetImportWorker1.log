@@ -15,7 +15,7 @@ C:/Users/Jeda/Documents/GitHub/cargame/Drunkdriveisfun
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63018
+54401
 Successfully changed project path to: C:/Users/Jeda/Documents/GitHub/cargame/Drunkdriveisfun
 C:/Users/Jeda/Documents/GitHub/cargame/Drunkdriveisfun
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Jeda/Documents/GitHub/cargame/Drunkdriveisfun
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1384] Host "[IP] 10.51.4.128 [Port] 0 [Flags] 2 [Guid] 1095443376 [EditorId] 1095443376 [Version] 1048832 [Id] WindowsEditor(7,Aurora-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21776] Host "[IP] 10.51.4.160 [Port] 0 [Flags] 2 [Guid] 3503729372 [EditorId] 3503729372 [Version] 1048832 [Id] WindowsEditor(7,Aurora-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1384] Host "[IP] 10.51.4.128 [Port] 0 [Flags] 2 [Guid] 1095443376 [EditorId] 1095443376 [Version] 1048832 [Id] WindowsEditor(7,Aurora-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21776] Host "[IP] 10.51.4.160 [Port] 0 [Flags] 2 [Guid] 3503729372 [EditorId] 3503729372 [Version] 1048832 [Id] WindowsEditor(7,Aurora-laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 23.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 22.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012145 seconds.
-- Loaded All Assemblies, in  0.541 seconds
+Registered in 0.009619 seconds.
+- Loaded All Assemblies, in  0.726 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 322 ms
+Android Extension - Scanning For ADB Devices 530 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.773 seconds
-Domain Reload Profiling: 1312ms
-	BeginReloadAssembly (216ms)
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 1809ms
+	BeginReloadAssembly (384ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (212ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (379ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (167ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (773ms)
+	FinalizeReload (1085ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (708ms)
+		SetupLoadedEditorAssemblies (1000ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (474ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (757ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (154ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1312ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.334 seconds
-Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.619 seconds
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.889 seconds
-Domain Reload Profiling: 2217ms
-	BeginReloadAssembly (270ms)
+- Finished resetting the current domain, in  2.082 seconds
+Domain Reload Profiling: 3698ms
+	BeginReloadAssembly (483ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (903ms)
-		LoadAssemblies (656ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (932ms)
+		LoadAssemblies (853ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (425ms)
-			TypeCache.Refresh (394ms)
-				TypeCache.ScanAssembly (367ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
+		AnalyzeDomain (402ms)
+			TypeCache.Refresh (368ms)
+				TypeCache.ScanAssembly (335ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (889ms)
+	FinalizeReload (2083ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (675ms)
+		SetupLoadedEditorAssemblies (1731ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
+			InitializePlatformSupportModulesInManaged (37ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (535ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (1331ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (176ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 10.21 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 10.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3567.
-Memory consumption went from 128.1 MB to 128.1 MB.
-Total: 3.543400 ms (FindLiveObjects: 0.291200 ms CreateObjectMapping: 0.407200 ms MarkObjects: 2.721700 ms  DeleteObjects: 0.122400 ms)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3569.
+Memory consumption went from 128.5 MB to 128.5 MB.
+Total: 10.544000 ms (FindLiveObjects: 0.554900 ms CreateObjectMapping: 0.470700 ms MarkObjects: 9.381400 ms  DeleteObjects: 0.135400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,49 +185,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 70758.037387 seconds.
-  path: Assets/Resources/New Forever Level.asset
-  artifactKey: Guid(09fa161d9feaae443874bed9dd917e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Forever Level.asset using Guid(09fa161d9feaae443874bed9dd917e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b8698efd467c2be53fc9480cb95ba8') in 0.005489 seconds
+  Time since last request: 84308.810911 seconds.
+  path: Assets/obstacles moddels/steering wheel.fbx
+  artifactKey: Guid(3f034dab9d925a147a3c171112b0dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/steering wheel.fbx using Guid(3f034dab9d925a147a3c171112b0dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24542244b91227088d3ffa238be8408') in 0.235164 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Resources/road.fbx
-  artifactKey: Guid(6354275348db45e4fa93e05418edd912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/road.fbx using Guid(6354275348db45e4fa93e05418edd912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba69ef2fd008447028cfab5dce2cd70') in 0.213164 seconds
+  Time since last request: 920.852288 seconds.
+  path: Assets/skybox/Zonder titel110_20240610113236 (1).png
+  artifactKey: Guid(62218485aeb58ac469f4f1ac0d98f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skybox/Zonder titel110_20240610113236 (1).png using Guid(62218485aeb58ac469f4f1ac0d98f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc345e380f17736bbc31e2d6a2675bcd') in 0.670180 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 2.198196 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Cuboids_01b.fbx
-  artifactKey: Guid(e72e74f2622b9804ea31d89c41137321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Cuboids_01b.fbx using Guid(e72e74f2622b9804ea31d89c41137321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10c98ed73f863904d01edca29d1be66') in 0.020221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Cuboids_01a.fbx
-  artifactKey: Guid(de57fe4cd55999a4db8eec68223ed5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Cuboids_01a.fbx using Guid(de57fe4cd55999a4db8eec68223ed5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbd7c539fd5148b13cf10715f079338') in 0.023592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Tire_01d.fbx
-  artifactKey: Guid(3558a1f932a73dc4fabfc06214f0941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Tire_01d.fbx using Guid(3558a1f932a73dc4fabfc06214f0941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ea70b1c27dfa2e3f7632d73598a344') in 0.020001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Stoolids_01d.fbx
-  artifactKey: Guid(75f47cccdfd13c24b90e309cf72197bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Stoolids_01d.fbx using Guid(75f47cccdfd13c24b90e309cf72197bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f008a2871b89701a1024d6383ddaa6') in 0.020484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
