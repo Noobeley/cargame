@@ -9,78 +9,69 @@ public class spline : MonoBehaviour
     public float maxPerpendicularMovement = 2f;
     public float boundsLimit = 10f;
 
-    private GameObject[] pathObjects;
+    private List<GameObject> pathObjects;
     private int currentPathIndex = 0;
     private bool isMovingPerpendicular = false;
+    private Vector3 targetPosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        // Find all objects with the "Path" tag
-        pathObjects = GameObject.FindGameObjectsWithTag("Path");
+        // Find all objects with the "Respawn" tag and add them to the pathObjects list
+        pathObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Respawn"));
+        if (pathObjects.Count > 0)
+        {
+            targetPosition = pathObjects[0].transform.position;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Move towards the closest path object
-        MoveTowardsPathObject();
+        // Move towards the target position
+        MoveTowardsTargetPosition();
 
         // Check for input to move perpendicular
         CheckPerpendicularMovement();
     }
 
-    void MoveTowardsPathObject()
+    void MoveTowardsTargetPosition()
     {
-        if (pathObjects.Length == 0)
+        if (pathObjects.Count == 0)
         {
             Debug.Log("No path objects found.");
             return;
         }
 
-        // Get the closest path object
-        GameObject closestPathObject = GetClosestPathObject();
-
-        // Calculate the direction towards the closest path object
-        Vector3 direction = closestPathObject.transform.position - transform.position;
+        // Calculate the direction towards the target position
+        Vector3 direction = targetPosition - transform.position;
         direction.Normalize();
 
-        // Move towards the closest path object
+        // Move towards the target position
         transform.position += direction * speed * Time.deltaTime;
 
-        // Rotate towards the closest path object
+        // Rotate towards the target position
         Quaternion targetRotation = Quaternion.LookRotation(direction);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
-        // Check if the capsule has reached the closest path object
-        if (Vector3.Distance(transform.position, closestPathObject.transform.position) < 0.1f)
+        // Check if the capsule has reached the target position
+        if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
         {
-            // Ignore the current path object and move towards the next one
-            currentPathIndex++;
-            if (currentPathIndex >= pathObjects.Length)
+            // Ignore the current target position and move towards the next one
+            if (currentPathIndex >= pathObjects.Count)
             {
                 currentPathIndex = 0;
             }
-        }
-    }
-
-    GameObject GetClosestPathObject()
-    {
-        GameObject closestPathObject = null;
-        float closestDistance = Mathf.Infinity;
-
-        foreach (GameObject pathObject in pathObjects)
-        {
-
-            float distance = Vector3.Distance(transform.position, pathObject.transform.position);
-            if (distance < closestDistance)
+            pathObjects.RemoveAt(currentPathIndex);
+            if (currentPathIndex >= pathObjects.Count)
             {
-                closestDistance = distance;
-                closestPathObject = pathObject;
+                currentPathIndex = 0;
+            }
+            if (pathObjects.Count > 0)
+            {
+                targetPosition = pathObjects[currentPathIndex].transform.position;
             }
         }
-
-        return closestPathObject;
     }
 
     void CheckPerpendicularMovement()
@@ -97,7 +88,6 @@ public class spline : MonoBehaviour
 
             // Calculate the movement amount based on the input and limits
             float movementAmount = horizontalInput * maxPerpendicularMovement;
-            movementAmount = Mathf.Clamp(movementAmount, -maxPerpendicularMovement, maxPerpendicularMovement);
 
             // Move the capsule perpendicular to the current forward direction
             transform.position += rightDirection * movementAmount * Time.deltaTime;
