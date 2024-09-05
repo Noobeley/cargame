@@ -335,3 +335,91 @@ Received Import Request.
 Start importing Assets/obstacles moddels/log_bench.fbx using Guid(eedcba78ca77e6f43989bd78f2d50e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7cd7d723894c58f5a374e1f5651045') in 0.045352 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 291.591188 seconds.
+  path: Assets/obstacles moddels/Tree_1 (1).fbx
+  artifactKey: Guid(b5020025a0aa699408410ba86222f285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/Tree_1 (1).fbx using Guid(b5020025a0aa699408410ba86222f285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147695eb5ba960e6f0b50b4aed0d41ba') in 0.251722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 21.996261 seconds.
+  path: Assets/obstacles moddels/Fir.fbx
+  artifactKey: Guid(2c0818263ee21cf43b502a1a4f42e365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/Fir.fbx using Guid(2c0818263ee21cf43b502a1a4f42e365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16278d9cab865e4b8b28e160f7772c63') in 0.031626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 46.376787 seconds.
+  path: Assets/obstacles moddels/Tree1.mat
+  artifactKey: Guid(d98990ccc09266e4b84514042eef5911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/Tree1.mat using Guid(d98990ccc09266e4b84514042eef5911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b26eac16b3ba17324f04488df803c0e') in 0.043326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.761852 seconds.
+  path: Assets/obstacles moddels/Tree_1.png
+  artifactKey: Guid(e014b1c83f246304cbd3c5b1f3dc09c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/Tree_1.png using Guid(e014b1c83f246304cbd3c5b1f3dc09c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00e8e1b1c71b41528a63afa89ec9561') in 0.313089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.513378 seconds.
+  path: Assets/obstacles moddels/New Material.mat
+  artifactKey: Guid(8d064c062ce3a5048915b8174e5ec2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/New Material.mat using Guid(8d064c062ce3a5048915b8174e5ec2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3c9a00d13155dcffa1d42d38be7fa9') in 0.026740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 318.409383 seconds.
+  path: Assets/obstacles moddels/New Material.mat
+  artifactKey: Guid(8d064c062ce3a5048915b8174e5ec2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/New Material.mat using Guid(8d064c062ce3a5048915b8174e5ec2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25f574912c8e1209c784b65448fde13') in 0.055088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 190.752743 seconds.
+  path: Assets/obstacles moddels/New Material 1.mat
+  artifactKey: Guid(a21ef8be5a80a3a4fa4d792548098713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/New Material 1.mat using Guid(a21ef8be5a80a3a4fa4d792548098713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f08efba7d2ce9bac800552df274668') in 0.046609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 224.907923 seconds.
+  path: Assets/obstacles moddels/stone.fbx
+  artifactKey: Guid(327f57ac5a7543445bd46a248ff3ad3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/stone.fbx using Guid(327f57ac5a7543445bd46a248ff3ad3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a15a96c25da13935f0b1e4e22ef0ee6') in 0.068426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 24.803860 seconds.
+  path: Assets/obstacles moddels/Tree2.fbx
+  artifactKey: Guid(17553f6630eb5bb45b3aceb671ee1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/Tree2.fbx using Guid(17553f6630eb5bb45b3aceb671ee1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd48f9644efd941fbd2c52e84ec02b3') in 0.136262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 14.778500 seconds.
+  path: Assets/obstacles moddels/ToonShading.hlsl
+  artifactKey: Guid(65e6cdf6db391244f9400f20e415b4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/ToonShading.hlsl using Guid(65e6cdf6db391244f9400f20e415b4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136f0b31bd7100c709d3076b5938d73b') in 0.007741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 165.987733 seconds.
+  path: Assets/obstacles moddels/tree (1).fbx
+  artifactKey: Guid(27afd245d3e1a3943b5ab22da74e0aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/tree (1).fbx using Guid(27afd245d3e1a3943b5ab22da74e0aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3a33235aed8443cff31a62e0bd19a4') in 0.161368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
