@@ -423,3 +423,19 @@ Received Import Request.
 Start importing Assets/obstacles moddels/tree (1).fbx using Guid(27afd245d3e1a3943b5ab22da74e0aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3a33235aed8443cff31a62e0bd19a4') in 0.161368 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1198.549970 seconds.
+  path: Assets/obstacles moddels/simple tree.fbx
+  artifactKey: Guid(b9f62b2fe0fc36b41be1bf8c833abdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/simple tree.fbx using Guid(b9f62b2fe0fc36b41be1bf8c833abdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4d2c3b51eaff0a184d5b005a090957') in 0.183282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.343290 seconds.
+  path: Assets/obstacles moddels/small simple tree.fbx
+  artifactKey: Guid(c7f03ddec2836454eafd55b92dd0c76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacles moddels/small simple tree.fbx using Guid(c7f03ddec2836454eafd55b92dd0c76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07865649622c60425b7f544e3ad49d1a') in 0.039491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
