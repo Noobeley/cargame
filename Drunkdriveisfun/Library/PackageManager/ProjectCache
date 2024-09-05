@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638611447586458991
     m_Hash: 492484230
+=======
+      ticks: 638611453563587308
+    m_Hash: 264897285
+>>>>>>> new-alternate-sly-branch-2024
   m_LockFileStatus:
     m_FilePath: C:/Users/pfjni/Documents/Year2GameJam/cargame/Drunkdriveisfun/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638611447586678952
     m_Hash: 2800506070
+=======
+      ticks: 638611453563637375
+    m_Hash: 3336506154
+>>>>>>> new-alternate-sly-branch-2024
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -265,7 +275,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.0
   source: 1
+<<<<<<< HEAD
   resolvedPath: C:\Users\pfjni\Documents\Year2GameJam\cargame\Drunkdriveisfun\Library\PackageCache\com.unity.inputsystem@1.7.0
+=======
+  resolvedPath: C:\Users\Naruto\Documents\GitHub\y2\cargame\Drunkdriveisfun\cargame\Drunkdriveisfun\Library\PackageCache\com.unity.inputsystem@1.7.0
+>>>>>>> new-alternate-sly-branch-2024
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -392,7 +406,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.2.1
   source: 1
+<<<<<<< HEAD
   resolvedPath: C:\Users\pfjni\Documents\Year2GameJam\cargame\Drunkdriveisfun\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+=======
+  resolvedPath: C:\Users\Naruto\Documents\GitHub\y2\cargame\Drunkdriveisfun\cargame\Drunkdriveisfun\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+>>>>>>> new-alternate-sly-branch-2024
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json

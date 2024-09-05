@@ -6,12 +6,10 @@ public class spline : MonoBehaviour
 {
     public float speed = 5f;
     public float rotationSpeed = 100f;
-    public float maxPerpendicularMovement = 2f;
     public float boundsLimit = 10f;
 
     private List<GameObject> pathObjects;
     private int currentPathIndex = 0;
-    private bool isMovingPerpendicular = false;
     private Vector3 targetPosition;
 
     // Start is called before the first frame update
@@ -31,8 +29,15 @@ public class spline : MonoBehaviour
         // Move towards the target position
         MoveTowardsTargetPosition();
 
-        // Check for input to move perpendicular
-        CheckPerpendicularMovement();
+        // Check for new objects with the "Respawn" tag and add them to the pathObjects list
+        GameObject[] newObjects = GameObject.FindGameObjectsWithTag("Respawn");
+        foreach (GameObject obj in newObjects)
+        {
+            if (!pathObjects.Contains(obj))
+            {
+                pathObjects.Add(obj);
+            }
+        }
     }
 
     void MoveTowardsTargetPosition()
@@ -71,35 +76,6 @@ public class spline : MonoBehaviour
             {
                 targetPosition = pathObjects[currentPathIndex].transform.position;
             }
-        }
-    }
-
-    void CheckPerpendicularMovement()
-    {
-        float horizontalInput = Input.GetAxis("Horizontal");
-
-        if (horizontalInput != 0f)
-        {
-            isMovingPerpendicular = true;
-
-            // Calculate the perpendicular direction based on the current forward direction
-            Vector3 forwardDirection = transform.forward;
-            Vector3 rightDirection = Vector3.Cross(forwardDirection, Vector3.up).normalized;
-
-            // Calculate the movement amount based on the input and limits
-            float movementAmount = horizontalInput * maxPerpendicularMovement;
-
-            // Move the capsule perpendicular to the current forward direction
-            transform.position += rightDirection * movementAmount * Time.deltaTime;
-
-            // Clamp the position within the bounds limit
-            Vector3 clampedPosition = transform.position;
-            clampedPosition.x = Mathf.Clamp(clampedPosition.x, -boundsLimit, boundsLimit);
-            transform.position = clampedPosition;
-        }
-        else
-        {
-            isMovingPerpendicular = false;
         }
     }
 }
