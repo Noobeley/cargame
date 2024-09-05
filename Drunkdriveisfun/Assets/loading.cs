@@ -7,8 +7,18 @@ public class loading : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Invoke the method to delete the object after 1 second
-        Invoke("DeleteObject", 1f);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        // Check if left mouse button is clicked
+        if (Input.GetMouseButtonDown(0))
+        {
+            // Call the method to delete the object
+            DeleteObject();
+        }
     }
 
     // Method to delete the object
@@ -16,11 +26,5 @@ public class loading : MonoBehaviour
     {
         // Destroy the game object this script is attached to
         Destroy(gameObject);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
