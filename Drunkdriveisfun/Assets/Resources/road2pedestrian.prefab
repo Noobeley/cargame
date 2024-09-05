@@ -546,6 +546,7 @@ GameObject:
   - component: {fileID: 2740979153220532924}
   - component: {fileID: 9136532385436179284}
   - component: {fileID: 8788223279183019802}
+  - component: {fileID: 1799346232165845897}
   m_Layer: 0
   m_Name: pedestrian
   m_TagString: Untagged
@@ -641,6 +642,20 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1799346232165845897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5567942057067309643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90564aac5b34044faa5e33b6fac190d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 5165594369913608181}
+  speed: 5
 --- !u!1 &7126453751344013764
 GameObject:
   m_ObjectHideFlags: 0
