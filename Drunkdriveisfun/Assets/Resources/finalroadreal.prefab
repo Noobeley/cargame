@@ -1312,10 +1312,10 @@ MonoBehaviour:
     _isRoot: 0
   bounds:
     center: {x: 0, y: 5.0835347, z: 0}
-    extents: {x: 13.000473, y: 5.0835347, z: 6}
-    max: {x: 13.000473, y: 10.167069, z: 6}
-    min: {x: -13.000473, y: 0, z: -6}
-    size: {x: 26.000946, y: 10.167069, z: 12}
+    extents: {x: 13.000475, y: 5.0835347, z: 6}
+    max: {x: 13.000475, y: 10.167069, z: 6}
+    min: {x: -13.000475, y: 0, z: -6}
+    size: {x: 26.00095, y: 10.167069, z: 12}
   builders: []
   unpacked: 0
   alwaysDraw: 0
@@ -1432,9 +1432,10 @@ GameObject:
   - component: {fileID: 7765537976060472432}
   - component: {fileID: 288893751652599796}
   - component: {fileID: 7728961325691643924}
+  - component: {fileID: 1139217224681636491}
   m_Layer: 2
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: street
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1525,6 +1526,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1139217224681636491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007550906546243315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &3052064214987232355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,9 +1551,10 @@ GameObject:
   - component: {fileID: 4576274867444037601}
   - component: {fileID: 7245600952725535810}
   - component: {fileID: 6182946753784097719}
+  - component: {fileID: 903794906318145430}
   m_Layer: 2
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: street
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1630,6 +1645,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &903794906318145430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052064214987232355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &3207292323460687508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,6 +1870,7 @@ GameObject:
   - component: {fileID: 2147541536548807789}
   - component: {fileID: 1526131126681502294}
   - component: {fileID: 8607851723829311750}
+  - component: {fileID: 4420759137939680551}
   m_Layer: 0
   m_Name: pedestrian (1)
   m_TagString: Finish
@@ -1951,6 +1980,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 5819211160891192047}
   speed: 3
+--- !u!114 &4420759137939680551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6101413735835236428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 5414780270837609362, guid: 429857c40a61adb40be4a0c0c013aa7a, type: 3}
 --- !u!1 &6295246496480616222
 GameObject:
   m_ObjectHideFlags: 0

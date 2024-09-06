@@ -40,10 +40,10 @@ public class secondplayer : MonoBehaviour
         {
             // Cast a ray from the beam origin in the direction of the beam
             RaycastHit hit;
-            if (Physics.Raycast(beamOrigin.position, direction, out hit))
+            if (Physics.Raycast(beamOrigin.position, direction, out hit, Mathf.Infinity)) // Increase the raycast distance to infinity
             {
                 // Check if the ray hits an object
-                if (hit.collider != null )
+                if (hit.collider != null && hit.collider.CompareTag("Finish"))
                 {
                     // Destroy the object
                     Destroy(hit.collider.gameObject);
