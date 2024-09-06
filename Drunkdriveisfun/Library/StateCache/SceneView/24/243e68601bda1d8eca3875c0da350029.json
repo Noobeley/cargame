@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":56.53770446777344,"y":8.570588111877442,"z":9.772055625915528},"rotation":{"x":0.19600094854831696,"y":0.5519160032272339,"z":-0.13503505289554597,"w":0.7994589805603027},"size":77.22421264648438,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":16.604835510253908,"y":22.5797176361084,"z":61.4534797668457},"rotation":{"x":0.20284749567508698,"y":0.7089335918426514,"z":-0.22539667785167695,"w":0.6378208994865418},"size":20.189754486083986,"orthographic":false}
+>>>>>>> Coop2Branch
