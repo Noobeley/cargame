@@ -200,9 +200,10 @@ GameObject:
   - component: {fileID: 2727986572413957799}
   - component: {fileID: 735713807864698136}
   - component: {fileID: 1516201109483687208}
+  - component: {fileID: 4593837217593787264}
   m_Layer: 2
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -293,6 +294,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4593837217593787264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188418336837124552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &2119969939815931503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,9 +1300,10 @@ GameObject:
   - component: {fileID: 7583786750548206985}
   - component: {fileID: 4919473231054530999}
   - component: {fileID: 4759346020700140312}
+  - component: {fileID: 5159860101452250198}
   m_Layer: 2
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1379,6 +1394,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5159860101452250198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2232586957972430864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &3498655124835587199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,9 +1659,10 @@ GameObject:
   - component: {fileID: 6105269433367246667}
   - component: {fileID: 1699834248851374492}
   - component: {fileID: 3676323697897935629}
+  - component: {fileID: 3317653209575166918}
   m_Layer: 0
   m_Name: GameJamObstacleCar (3)
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1731,6 +1760,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021921678, y: 0.043870375, z: 0.022031037}
   m_Center: {x: 3.3061012e-11, y: -0.008014376, z: -0.0010155088}
+--- !u!114 &3317653209575166918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3753142050599082836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 1507608912247874292, guid: 9d3a3005c254af545bea2324ba758553, type: 3}
 --- !u!1 &4997056097830348292
 GameObject:
   m_ObjectHideFlags: 0

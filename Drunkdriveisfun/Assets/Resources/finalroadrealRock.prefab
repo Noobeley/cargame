@@ -872,9 +872,9 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   bounds:
-    center: {x: 0, y: 5.0835342, z: 0}
+    center: {x: 0.00000047683716, y: 5.0835342, z: 0}
     extents: {x: 13.000475, y: 5.0835342, z: 6}
-    max: {x: 13.000475, y: 10.1670685, z: 6}
+    max: {x: 13.000476, y: 10.1670685, z: 6}
     min: {x: -13.000475, y: 0, z: -6}
     size: {x: 26.00095, y: 10.1670685, z: 12}
   builders: []
@@ -899,9 +899,10 @@ GameObject:
   - component: {fileID: 7484464257436037159}
   - component: {fileID: 5976056981696575333}
   - component: {fileID: 1803802268831804309}
+  - component: {fileID: 8222580295056597350}
   m_Layer: 2
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -992,6 +993,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8222580295056597350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511005825360887444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &2055173141810889663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,9 +1018,10 @@ GameObject:
   - component: {fileID: 173985912826082957}
   - component: {fileID: 3141038892549785526}
   - component: {fileID: 5395149411234669510}
+  - component: {fileID: 2509963135800903948}
   m_Layer: 2
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1097,6 +1112,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2509963135800903948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055173141810889663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &2293245699625731869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,6 +1554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA04_Rocks_Snot_01a_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 1759365485127006, guid: 915b8c7562723354184690b1602f17b3, type: 3}
+      propertyPath: m_TagString
+      value: cone
+      objectReference: {fileID: 0}
     - target: {fileID: 4475690502733432, guid: 915b8c7562723354184690b1602f17b3, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.44846
@@ -1585,7 +1617,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1759365485127006, guid: 915b8c7562723354184690b1602f17b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2041918415634945556}
   m_SourcePrefab: {fileID: 100100000, guid: 915b8c7562723354184690b1602f17b3, type: 3}
 --- !u!4 &516742889052824400 stripped
 Transform:
@@ -1597,6 +1632,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4475690502733432, guid: 915b8c7562723354184690b1602f17b3, type: 3}
   m_PrefabInstance: {fileID: 521239356548679658}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &521731791439848116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1759365485127006, guid: 915b8c7562723354184690b1602f17b3, type: 3}
+  m_PrefabInstance: {fileID: 521239356548679658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2041918415634945556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521731791439848116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 5414780270837609362, guid: 37fb1aba6d5788f44b80c3a44ad2e41d, type: 3}
 --- !u!33 &526186334674820648 stripped
 MeshFilter:
   m_CorrespondingSourceObject: {fileID: 33411684902934978, guid: 915b8c7562723354184690b1602f17b3, type: 3}

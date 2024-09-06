@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6549779629423682001}
   - component: {fileID: 4471967022748999852}
   - component: {fileID: 4597523455252086008}
+  - component: {fileID: 816533367788442645}
   m_Layer: 2
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,6 +106,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &816533367788442645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654959162172584800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &1075329160045999389
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,9 +131,10 @@ GameObject:
   - component: {fileID: 1593096436233969351}
   - component: {fileID: 8249002069589736325}
   - component: {fileID: 1553422029105931722}
+  - component: {fileID: 4749050990442471585}
   m_Layer: 2
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,6 +225,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4749050990442471585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075329160045999389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &1764717433569373177
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,9 +344,10 @@ GameObject:
   - component: {fileID: 7315028391489365817}
   - component: {fileID: 4447471901306304850}
   - component: {fileID: 6794278541249552750}
+  - component: {fileID: 8445561661444485914}
   m_Layer: 0
   m_Name: GameJamObstacleCar (1)
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -416,6 +445,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021921676, y: 0.04387037, z: 0.022031028}
   m_Center: {x: -2.9659022e-10, y: -0.008014436, z: -0.0010155105}
+--- !u!114 &8445561661444485914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2232247662291913474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac62aaf13171bcb4797eacdfb8764a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 4079275033683614730, guid: 7075756dc4c7f864f952728174eef7c3, type: 3}
 --- !u!1 &3294417544711279340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,9 +2040,9 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   bounds:
-    center: {x: 0.00000047683716, y: 5.0835342, z: 0}
+    center: {x: -0.00000047683716, y: 5.0835342, z: 0}
     extents: {x: 13.000475, y: 5.0835342, z: 6}
-    max: {x: 13.000476, y: 10.1670685, z: 6}
+    max: {x: 13.000474, y: 10.1670685, z: 6}
     min: {x: -13.000475, y: 0, z: -6}
     size: {x: 26.00095, y: 10.1670685, z: 12}
   builders: []
