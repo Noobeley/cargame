@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class CarBehavior : MonoBehaviour
 {
@@ -57,16 +58,8 @@ public class CarBehavior : MonoBehaviour
 
     private void Steer()
     {
-        if (isReversing)
-        {
-            frontLeftWheel.steerAngle = maxReverseSteeringAngle;
-            frontRightWheel.steerAngle = maxReverseSteeringAngle;
-        }
-        else
-        {
             frontLeftWheel.steerAngle = steeringAngle;
             frontRightWheel.steerAngle = steeringAngle;
-        }
     }
 
     private void Accelerate()
@@ -188,6 +181,12 @@ public class CarBehavior : MonoBehaviour
 
         foreach (GameObject respawnPoint in respawnPoints)
         {
+            // Skip the current respawn point
+            if (respawnPoint.transform.position == currentPosition)
+            {
+                continue;
+            }
+
             float distance = Vector3.Distance(currentPosition, respawnPoint.transform.position);
             if (distance < shortestDistance)
             {
@@ -215,6 +214,15 @@ public class CarBehavior : MonoBehaviour
         foreach (Vector3 checkpoint in checkpoints)
         {
             Debug.Log(checkpoint.ToString());
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Respawn"))
+        {
+            Vector3 checkpointPosition = other.transform.position;
+            pastCheckpoints = AddCheckpoint(pastCheckpoints, checkpointPosition);
+            OutputCheckpoints(pastCheckpoints);
         }
     }
 }

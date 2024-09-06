@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class distancescript : MonoBehaviour
 {
-    private float totalDistance;
+    private Vector3 startPosition;
     private Vector3 lastPosition;
     public TMPro.TextMeshProUGUI distanceText;
 
     // Start is called before the first frame update
     void Start()
     {
-        totalDistance = 0f;
+        startPosition = transform.position;
         lastPosition = transform.position;
     }
 
@@ -20,10 +20,8 @@ public class distancescript : MonoBehaviour
     void Update()
     {
         Vector3 currentPosition = transform.position;
-        float distanceMoved = Vector3.Distance(currentPosition, lastPosition);
-        totalDistance += distanceMoved;
+        float distanceMoved = Vector3.Distance(startPosition, currentPosition);
+        distanceText.text = distanceMoved.ToString("F2");
         lastPosition = currentPosition;
-
-        distanceText.text = totalDistance.ToString("F2");
     }
 }
