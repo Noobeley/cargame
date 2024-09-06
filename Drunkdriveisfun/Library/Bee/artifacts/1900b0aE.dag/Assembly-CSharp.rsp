@@ -497,12 +497,18 @@
 "Assets/D.A. Assets/Figma-Converter-for-Unity/Scripts/Web/RequestCreator.cs"
 "Assets/D.A. Assets/Figma-Converter-for-Unity/Scripts/Web/RequestSender.cs"
 "Assets/deletpath.cs"
+"Assets/distancescript.cs"
+"Assets/folloiwing.cs"
+"Assets/hp.cs"
+"Assets/leftright.cs"
 "Assets/loading.cs"
 "Assets/pedes.cs"
+"Assets/reducehp.cs"
 "Assets/Scripts/Collision.cs"
 "Assets/Scripts/GameOver.cs"
 "Assets/secondplayer.cs"
 "Assets/spline.cs"
+"Assets/startgamee.cs"
 -langversion:9.0
 
 /deterministic
