@@ -18,10 +18,11 @@ public class HitByCar : MonoBehaviour
         if (player.CompareTag("Player"))
         {
             Debug.Log("KILL");
-            Destroy(gameObject);
+            if (!gameObject.CompareTag("Tree"))
+            {
+                Destroy(gameObject);
+            }
             GameObject explosion = Instantiate(blood, transform.position, transform.rotation);
-
-
         }
     }
 }

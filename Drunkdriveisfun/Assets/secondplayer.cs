@@ -6,6 +6,7 @@ public class secondplayer : MonoBehaviour
 {
     public LineRenderer beamRenderer; // Reference to the LineRenderer component
     public Transform beamOrigin; // The starting point of the beam
+    public ParticleSystem explosionEffect; // Reference to the ParticleSystem component for the explosion effect
 
     void Start()
     {
@@ -43,10 +44,13 @@ public class secondplayer : MonoBehaviour
             if (Physics.Raycast(beamOrigin.position, direction, out hit, Mathf.Infinity)) // Increase the raycast distance to infinity
             {
                 // Check if the ray hits an object
-                if (hit.collider != null && hit.collider.CompareTag("Finish"))
+                if (hit.collider != null && hit.collider.CompareTag("tree") && hit.collider.gameObject.name.StartsWith("GameJamObstacleCar"))
                 {
                     // Destroy the object
                     Destroy(hit.collider.gameObject);
+
+                    // Create an explosion effect
+                    Instantiate(explosionEffect, hit.point, Quaternion.identity);
                 }
             }
         }

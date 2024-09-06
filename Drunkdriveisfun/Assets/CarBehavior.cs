@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.HID;
 using UnityEngine.UIElements;
 
 public class CarBehavior : MonoBehaviour
@@ -24,7 +25,7 @@ public class CarBehavior : MonoBehaviour
     private bool isReversing;
     private bool isFlipped;
     private float flipTimer; // Timer to track how long the car has been flipped
-
+    public ParticleSystem explosionEffect; // Reference to the ParticleSystem component for the explosion effect
     private Vector3 lastCheckpoint;
     private Vector3[] pastCheckpoints;
 
@@ -43,6 +44,8 @@ public class CarBehavior : MonoBehaviour
         CheckFlip();
     }
 
+
+
     private void GetInput()
     {
         steeringAngle = maxSteeringAngle * Input.GetAxis("Horizontal");
@@ -54,7 +57,14 @@ public class CarBehavior : MonoBehaviour
         {
             Respawn();
         }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            EmitParticle();
+        }
     }
+
+
 
     private void Steer()
     {
@@ -225,5 +235,12 @@ public class CarBehavior : MonoBehaviour
             OutputCheckpoints(pastCheckpoints);
         }
     }
+
+    private void EmitParticle()
+    {
+        Instantiate(explosionEffect, transform.position, Quaternion.identity);
+    }
+    // Code to emit a particle
+    // Replace this with your actual particle emission code
 }
 
