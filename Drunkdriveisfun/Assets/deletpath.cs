@@ -12,9 +12,11 @@ public class deletpath : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerEnter(Collider pedest)
+    void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collision detected." + pedest.gameObject);
-        Destroy(gameObject); // Destroy the current game object
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Collision detected with " + other.gameObject.name);
+        }
     }
 }
